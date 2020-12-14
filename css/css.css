@@ -1,0 +1,86 @@
+body {
+    font-family: Book Antiqua;
+    margin: auto;
+    margin-top: 5%;
+    min-width: 350px;
+    max-width: 900px;
+    background: 0 0 / cover #FFFFFF;
+    background-image: url(../425080.jpg);
+}
+
+input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    float: left;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 2px;
+    list-style-type: none;
+    background: #783382;
+    font-size: 18px;
+}
+
+ul li:nth-child(odd) {
+    background: #E069D7;
+}
+
+.header {
+    background-color: #8E3F9A;
+    padding: 9px 40px 7px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 8px;
+}
+
+.textField {
+    padding: 8px;
+}
+
+.btn {
+    padding: 8px;
+    width: 50px;
+    background: #E069D7;
+    color: white;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+fieldset {
+    border: 0 #FFFFFF;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 256px;
+    color: #FFFFFF;
+}
+
+a {
+    color: #5C0070;
+    text-shadow: 0px -1px #B94CD1;
+    /*+placement: 0px -8px;*/
+    position: relative;
+    left: 0px;
+    top: -8px;
+}
